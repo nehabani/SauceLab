@@ -1,0 +1,8 @@
+stepDefinition\TestRunner.class
+stepDefinition\task10.class
+pages\ProductPage.class
+pages\HomePage.class
+pages\CheckoutOverviewPage.class
+tools\Browser.class
+pages\YourCartPage.class
+pages\CheckoutInformationPage.class
