@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="17.203">
-    <testcase classname="Navigation to Sauce Labs website" name="Open home page in chrome" time="5.752">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="17.312">
+    <testcase classname="Navigation to Sauce Labs website" name="Open home page in chrome" time="5.932">
         <system-out>
             <![CDATA[Given I am on  home page....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="User perform login to home page unsuccessfully" time="1.626">
+    <testcase classname="Navigation to Sauce Labs website" name="User perform login to home page unsuccessfully" time="1.155">
         <system-out>
             <![CDATA[When I enter Username as "abc"..............................................passed
 And I enter Password  as "pqr"..............................................passed
@@ -14,7 +14,7 @@ Then I submit invalid credential for login..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="User perform login to home page successfully" time="1.621">
+    <testcase classname="Navigation to Sauce Labs website" name="User perform login to home page successfully" time="1.699">
         <system-out>
             <![CDATA[When I enter Username as "standard_user"....................................passed
 And I enter Password  as "secret_sauce".....................................passed
@@ -23,7 +23,7 @@ Then I validate the landing page............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="Navigate through products page" time="2.307">
+    <testcase classname="Navigation to Sauce Labs website" name="Navigate through products page" time="2.36">
         <system-out>
             <![CDATA[Given I sort filter high to low.............................................passed
 When I add items in cart....................................................passed
@@ -32,7 +32,7 @@ Then I  validate the cart page..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="Navigate through checkout page" time="1.263">
+    <testcase classname="Navigation to Sauce Labs website" name="Navigate through checkout page" time="1.265">
         <system-out>
             <![CDATA[Given I am on cart page.....................................................passed
 When I click to checkout button.............................................passed
@@ -40,7 +40,7 @@ Then I validate checkout landing page.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="Enter customer information" time="2.482">
+    <testcase classname="Navigation to Sauce Labs website" name="Enter customer information" time="2.533">
         <system-out>
             <![CDATA[When I enter Firstname as "Riya"............................................passed
 And I enter LastName  as "Singh"............................................passed
@@ -50,7 +50,7 @@ Then I validated the continue landing page..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Navigation to Sauce Labs website" name="Submit the information" time="1.745">
+    <testcase classname="Navigation to Sauce Labs website" name="Submit the information" time="2.065">
         <system-out>
             <![CDATA[Given I validate cart items.................................................passed
 When I click on finish button...............................................passed

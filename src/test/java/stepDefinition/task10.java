@@ -184,7 +184,7 @@ public void takeScreenshotOnFailure(Scenario scenario) {
 		byte[] src = ts.getScreenshotAs(OutputType.BYTES);
 		scenario.attach(src,"image/png", "screenshot");
 	}
-	System.out.println("This will run after the Scenario");
+	//System.out.println("This will run after the Scenario");
 
 }
 }
